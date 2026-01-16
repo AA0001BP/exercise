@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+
+# Python
+*.pyc
+__pycache__/
+
+# Database
+db.sqlite3
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Exercise file
+exercise.txt
