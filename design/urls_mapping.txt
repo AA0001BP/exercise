@@ -1,0 +1,18 @@
+url mappings for rango application
+
+url structure follows django url dispatcher pattern.
+dynamic urls use slugs to identify categories.
+
+project level urls:
+/admin/
+/rango/
+
+rango app urls:
+/rango/ → index view
+/rango/about/ → about view
+/rango/category/<category_name_slug>/ → show_category view
+/rango/category/<category_name_slug>/add_page/ → add_page view
+/rango/add_category/ → add_category view
+/rango/restricted/ → restricted view
+/login/
+/logout/
